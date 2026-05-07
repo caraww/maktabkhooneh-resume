@@ -1,0 +1,56 @@
+{
+  "title": "Hello, I'm Sara Bahadori!",
+  "subtitle": "Full Stack Dev | Open-Source Enthusiast",
+  "links": {
+    "github": "https://github.com/caraww",
+    "telegram": "https://t.me/caraww",
+    "linkedin": "https://www.linkedin.com/in/sara-bahadori-yekta-936557290/"
+  },
+  "sections": [
+    {
+      "title": "About",
+      "items": [
+        {
+          "type": "p",
+          "content": "I'm a front-end developer focused on building clean and user-friendly interfaces. \nI'm currently learning React and improving my skills in modern web development.\n I enjoy turning ideas into simple, responsive, and maintainable web experiences."
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "items": [
+        {
+          "type": "card",
+          "content": {
+            "image": "images/logo512.png",
+            "title": "React"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/logojs512.png",
+            "title": "Javascript"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/html.png",
+            "title": "HTML"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/css.png",
+            "title": "CSS"
+          }
+        }
+      ]
+    }
+  ],
+  "icons": {
+    "down": "images/arrowDown.png"
+  }
+}

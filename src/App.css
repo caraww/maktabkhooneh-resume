@@ -1,38 +1,70 @@
-.App {
+.title {
+  font-family: berlinbold, sans-serif;
+  font-size: 4.3rem;
+  margin: 15px;
+}
+
+.subtitle {
+  font-family: berlinsuperbold, sans-serif;
+  font-size: 2.2rem;
+  color: rgb(57, 57, 57);
+}
+
+.content {
+  font-family: gil, sans-serif;
+  font-size: 1.8rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  padding: 10px;
+  margin: 15px;
+}
+.icon:hover {
+  animation: jump 0.3s ease-in-out;
+}
+
+.first {
+  background: rgb(211, 211, 211);
+}
+
+.second {
+  background: rgb(200, 200, 200);
+}
+.content {
+  padding: 0px 60px;
+}
+.third {
+  background: rgb(172, 172, 172);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@keyframes jump {
+  0% {
+    transform: translateY(-1px);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  100% {
+    transform: translateY(-0.5px);
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes jumpFaster {
+  0% {
+    transform: translateY(10px);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(10px);
   }
 }

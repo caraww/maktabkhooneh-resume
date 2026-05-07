@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: berlin;
+  src: url(./Fonts/BRLNSB.TTF);
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: berlinbold;
+  src: url(./Fonts/BRLNSDB.TTF);
+}
+@font-face {
+  font-family: berlinsuperbold;
+  src: url(./Fonts/BRLNSR.TTF);
+}
+@font-face {
+  font-family: Gil;
+  src: url(./Fonts/GIL_____.TTF);
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex: auto;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
