@@ -22,28 +22,28 @@
         {
           "type": "card",
           "content": {
-            "image": "maktabkhooneh-resume/images/logo512.png",
+            "image": "images/logo512.png",
             "title": "React"
           }
         },
         {
           "type": "card",
           "content": {
-            "image": "maktabkhooneh-resume/images/logojs512.png",
+            "image": "images/logojs512.png",
             "title": "Javascript"
           }
         },
         {
           "type": "card",
           "content": {
-            "image": "maktabkhooneh-resume/images/html.png",
+            "image": "images/html.png",
             "title": "HTML"
           }
         },
         {
           "type": "card",
           "content": {
-            "image": "maktabkhooneh-resume/images/css.png",
+            "image": "images/css.png",
             "title": "CSS"
           }
         }
@@ -51,6 +51,6 @@
     }
   ],
   "icons": {
-    "down": "maktabkhooneh-resume/images/arrowDown.png"
+    "down": "images/arrowDown.png"
   }
 }

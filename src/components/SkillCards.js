@@ -11,7 +11,7 @@ class SkillCards extends Component {
         {skills.items.map((each) => (
           <figure className="card">
             <img
-              src={each.content.image}
+              src={process.env.PUBLIC_URL + "/" + each.content.image}
               alt={each.content.title}
               width={160}
             />

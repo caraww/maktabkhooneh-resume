@@ -6,7 +6,7 @@ const DownIcon = ({ onClick }) => {
     <img
       onClick={onClick}
       className="down"
-      src={data.icons.down}
+      src={process.env.PUBLIC_URL + "/" + data.icons.down}
       alt="Down"
       style={{
         maxWidth: "50px",
