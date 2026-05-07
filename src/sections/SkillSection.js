@@ -3,7 +3,6 @@ import Fullpage from "../components/Fullpage";
 import data from "../data.json";
 import SkillCards from "../components/SkillCards";
 import "../components/SkillCard.css";
-
 import UpIcon from "../components/UpIcon";
 import { scroller } from "react-scroll";
 
