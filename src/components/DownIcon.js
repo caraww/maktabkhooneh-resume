@@ -11,7 +11,7 @@ const DownIcon = ({ onClick }) => {
       style={{
         maxWidth: "50px",
         position: "relative",
-        bottom: "-50px",
+        bottom: "-30px",
         animation: "jumpFaster ease-in-out infinite 1.5s",
       }}
     />

@@ -4,30 +4,12 @@ import data from "../data.json";
 import { SocialIcon } from "react-social-icons";
 import { scroller } from "react-scroll";
 import DownIcon from "../components/DownIcon";
+
 class TitlesAndIcons extends Component {
-  state = {
-    color: "black",
-  };
-  changeColor = () => {
-    this.setState({
-      color: this.state.color === "black" ? "white" : "black",
-    });
-  };
   render() {
     return (
       <Fullpage className="first">
-        <h1
-          className="title"
-          style={{ color: this.state.color }}
-          onMouseOver={() => {
-            this.changeColor();
-          }}
-          onMouseLeave={() => {
-            this.changeColor();
-          }}
-        >
-          {data.title}
-        </h1>
+        <h1 className="title">{data.title}</h1>
         <h2 className="subtitle">{data.subtitle}</h2>
 
         <div className="icons">

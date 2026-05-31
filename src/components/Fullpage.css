@@ -6,3 +6,17 @@
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .fullpage {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .fullpage {
+    padding: 15px;
+  }
+}

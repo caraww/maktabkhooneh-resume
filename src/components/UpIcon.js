@@ -11,7 +11,7 @@ const UpIcon = ({ onClick }) => {
       style={{
         maxWidth: "50px",
         position: "relative",
-        bottom: "-20px",
+        bottom: "-30px",
         rotate: "180deg",
         animation: "jumpFaster ease-in-out infinite 1.5s",
       }}

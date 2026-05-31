@@ -1,11 +1,15 @@
 .snowflake {
-  z-index: 999;
+  z-index: 99;
   pointer-events: none;
 }
+.colorChange {
+  border-radius: 16px;
+}
+
 .Up:hover {
   cursor: pointer;
 }
-.down {
+.down:hover {
   cursor: pointer;
 }
 
@@ -41,17 +45,17 @@
 }
 
 .first {
-  background: rgb(211, 211, 211);
+  background: inherit;
 }
 
 .second {
-  background: rgb(200, 200, 200);
+  background: inherit;
 }
 .content {
   padding: 0px 60px;
 }
 .third {
-  background: rgb(172, 172, 172);
+  background: inherit;
   text-align: center;
 }
 
@@ -77,5 +81,50 @@
 
   100% {
     transform: translateY(10px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 3.9rem;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 2.6rem;
+    text-align: center;
+  }
+
+  .content {
+    font-size: 1.9rem;
+    padding: 0px 20px;
+  }
+
+  .icons {
+    flex-wrap: wrap;
+  }
+
+  .icon {
+    margin: 10px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 2.9rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    font-size: 1.3rem;
+    padding: 0px 15px;
+  }
+
+  .icon {
+    margin: 8px;
+    padding: 6px;
   }
 }

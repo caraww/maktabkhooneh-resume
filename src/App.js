@@ -1,14 +1,14 @@
 import TitlesAndIcons from "./sections/TitlesAndIcons";
 import AboutSection from "./sections/AboutSection";
 import SkillSection from "./sections/SkillSection";
+import NavbarSection from "./sections/NavbarSection";
 import { Element } from "react-scroll";
 import Snowfall from "react-snowfall";
-import NavbarSection from "./sections/NavbarSection";
 
 function App() {
   return (
     <div className="App first">
-      <Snowfall className="snowflake" snowflakeCount={120} color={"gray"} />
+      <Snowfall />
       <NavbarSection />
       <Element name="Section1">
         <TitlesAndIcons />
